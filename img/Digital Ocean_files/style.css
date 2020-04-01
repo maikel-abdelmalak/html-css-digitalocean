@@ -1,7 +1,7 @@
-
 #header-top{
     padding:10px;
     border-bottom: 1px solid #ddd;
+    z-index: 3;
 }
 
 #header-top a {
@@ -72,11 +72,6 @@
     background-color: #0248ff;
 }
 
-.fa-bars{
-    color: #fff;
-    font-size: 16px;
-    padding-top: 10px;
-}
 main{
     padding-top: 111px;
 }
@@ -85,78 +80,6 @@ main{
     background-image: url(img/bg-jumbo.jpg);
 }
 
-.jumbotron .h1{
-    font-weight: bold;
-    font-size: 60px;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.jumbotron .sub {
-    color: #ccc;
-    font-size: 25px;
-}
-
-form{
-    background-color: #fff;
-    margin: 0 30px;
-    padding: 30px;
-    border-radius: 5px;
-}
-
-#h2, .h2{
-    color:#031b4e;
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.form-input input{
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid #eee;
-    font-size: 20px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-#button button{
-    width: 100%;
-    font-size: 20px;
-    color:#fff;
-    font-weight: bold;
-    background-color: #0248ff;
-    margin-bottom: 20px;
-}
-
-#button button:hover{
-    background-color: #1633ff;
-    color: #fff;
-}
-
-#sign p{
-    font-size: 16px;
-    color: #777;
-    margin: 0 15px;
-}
-
-#sign p::before, #sign p::after{
-    content: "";
-    height: 10px;
-    color: red;
-    width: 18px;
-}
-
-.sign-account a{
-    font-size: 18px;
-    color: #031b4e;
-    width: 100%;
-    display: inline-block;
-}
-
-p small{
-    font-size: 12px;
-    margin-top: 30px;
-}
 
 @media all and (max-width: 992px){
     main{
@@ -168,9 +91,5 @@ p small{
     .jumbotron{
         background-color: #0248ff;
         background-image: none
-    }
-
-    #button button{
-        font-size: 14px;
     }
 }
