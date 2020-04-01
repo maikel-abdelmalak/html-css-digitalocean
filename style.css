@@ -1,7 +1,7 @@
-
 #header-top{
     padding:10px;
     border-bottom: 1px solid #ddd;
+    background-color: #fff;
 }
 
 #header-top a {
@@ -33,6 +33,10 @@
 
 #header-bottom, #header-bottom-mobile{
     padding: 20px 20px 10px 20px;
+}
+
+#header-bottom{
+    background-color: #fff;
 }
 
 #logo{
@@ -83,6 +87,7 @@ main{
 
 .jumbotron{
     background-image: url(img/bg-jumbo.jpg);
+    margin-bottom: 0;
 }
 
 .jumbotron .h1{
@@ -157,6 +162,34 @@ p small{
     font-size: 12px;
     margin-top: 30px;
 }
+
+#partners{
+    padding: 50px 0;
+    background-color: #f3f5f9;
+}
+
+#partners p{
+    font-weight: bold;
+    color: #c4cad7;
+    font-size: 18px;
+}
+#partners-logo{
+    object-fit: contain;
+    height: 70px;
+    width: 100%;
+}
+
+#Deploy{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#Deploy p:first-of-type{
+    margin: 20px 0;
+    color: #c4cad7;
+    font-size: 20px;
+}
+
 
 @media all and (max-width: 992px){
     main{
