@@ -211,7 +211,7 @@ p small{
     border-color: #1633ff;
 }
 /* fine deploy */
-#designed{
+.designed{
     background-color: #f3f5f9;
 }
 
@@ -222,20 +222,79 @@ p small{
     font-size: 30px;
     color: #c4cad7;
     padding-top: 60%;
-
 }
 
 .glyphicon-chevron-right:hover, .glyphicon-chevron-left:hover{
     color:#1633ff;
 }
 
-#designed p{
+.designed p{
     color: #c4cad7;
     margin:40px 0 30px;
 }
 
 .fa-circle{
     color: #1633ff;
+}
+/* fine designed */
+#built .row div{
+    margin-bottom: 30px;
+}
+#built a{
+    text-decoration: none;
+    color: #1633ff;
+}
+
+#built a:hover{
+    color:#0248ff;
+}
+.fa-angle-right{
+    vertical-align: middle;
+}
+
+#reiable svg{
+    height: 50px;
+}
+
+#built .row:last-child{
+    margin-top: 50px;
+}
+/* fine built */
+
+#world{
+    background-color: #031b4e;
+    background-image: url(img/map.svg);
+}
+
+#world .h2{
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.table .sigla, .table .luogo, .table .text-right {
+    border-top: none;
+    border-bottom: 1px solid #777;
+}
+
+
+.table tr:last-child th{
+    border-bottom:none;
+}
+.table .sigla{
+    color:#fff;
+}
+
+.table .luogo{
+    color:#aaa;
+}
+
+.table a {
+    color:#00d7d2;
+    text-decoration: none;
+}
+.table a:hover{
+    color:#0248ff;
 }
 
 
