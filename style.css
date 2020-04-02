@@ -1,3 +1,4 @@
+/* inizio header */
 #header-top{
     padding:10px;
     border-bottom: 1px solid #ddd;
@@ -81,8 +82,14 @@
     font-size: 16px;
     padding-top: 10px;
 }
+/* fine header */
+/* inizio jumbo */
 main{
     padding-top: 111px;
+}
+
+.section{
+    padding: 100px 0 70px;
 }
 
 .jumbotron{
@@ -162,7 +169,7 @@ p small{
     font-size: 12px;
     margin-top: 30px;
 }
-
+/* fine jumbo */
 #partners{
     padding: 50px 0;
     background-color: #f3f5f9;
@@ -178,17 +185,61 @@ p small{
     height: 70px;
     width: 100%;
 }
+/* fine partner */
 
-#Deploy{
-    padding-top: 70px;
-    padding-bottom: 50px;
-}
 
-#Deploy p:first-of-type{
-    margin: 20px 0;
+.sub-title{
+    margin: 20px 0 70px;
     color: #c4cad7;
     font-size: 20px;
 }
+
+#deploy-menu p{
+    margin-left: 20px;
+    padding: 10px;
+    border-left: 2px solid #c4cad7;
+    color: #c4cad7;
+    margin-bottom: 0;
+}
+
+#deploy-menu{
+    margin-bottom: 30px;
+}
+
+#deploy-menu p:hover{
+    color: #111;
+    border-color: #1633ff;
+}
+/* fine deploy */
+#designed{
+    background-color: #f3f5f9;
+}
+
+.glyphicon-container{
+    margin-top: 15%;
+}
+.glyphicon-chevron-right, .glyphicon-chevron-left{
+    font-size: 30px;
+    color: #c4cad7;
+    padding-top: 60%;
+
+}
+
+.glyphicon-chevron-right:hover, .glyphicon-chevron-left:hover{
+    color:#1633ff;
+}
+
+#designed p{
+    color: #c4cad7;
+    margin:40px 0 30px;
+}
+
+.fa-circle{
+    color: #1633ff;
+}
+
+
+
 
 
 @media all and (max-width: 992px){
