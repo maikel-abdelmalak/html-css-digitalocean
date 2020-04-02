@@ -120,6 +120,7 @@ form{
     color:#031b4e;
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
 }
 
 .form-input input{
@@ -296,10 +297,82 @@ p small{
 .table a:hover{
     color:#0248ff;
 }
+/* fine world */
 
+#call-to-action{
+    background-image: url(img/bg-button.jpg);
+}
 
+#call-to-action .h2{
+    color:#fff;
+}
 
+#call-to-action button{
+    width: 100%;
+    padding: 15px 20px ;
+    font-size: 18px;
+    border-radius: 7px;
+}
 
+#call-to-action button:hover{
+    color: #0248ff;
+    background-color: #ced8fb;
+}
+
+/* inizio footer */
+footer{
+    background-color: #010e28;
+
+}
+
+footer h4{
+    color:#fff;
+    margin-bottom: 20px
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer li{
+    margin: 10px 0;
+}
+
+footer a{
+    color:rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+footer a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+#footer-bottom{
+    margin-top: 70px;
+    border-top: 1px solid #ddd;
+    padding: 30px 0;
+}
+
+#footer-bottom p{
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#logo-bottom svg{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+#footer-bottom li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+#footer-bottom li a{
+    font-size: 20px;
+        padding: 0 5px;
+}
 
 @media all and (max-width: 992px){
     main{
