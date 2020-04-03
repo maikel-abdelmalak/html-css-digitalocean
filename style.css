@@ -45,7 +45,8 @@
 }
 
 #header-bottom-mobile{
-    background-color: #0248ff;
+    /* background-color: #0248ff; */
+    margin-bottom: 40px;
 }
 #logo-mobile {
     fill: #fff;
@@ -152,13 +153,24 @@ form{
     margin: 0 15px;
 }
 
-#sign p::before, #sign p::after{
+#sign span::before, #sign span::after{
     content: "";
-    height: 10px;
-    color: red;
-    width: 18px;
+    display: inline-block;
+    width: calc((100% - 125px) / 2);
+    border-top: 1px solid #e5e8ed;
+    vertical-align: middle;
 }
 
+#sign span::before{
+    margin-right: 5px;
+}
+#sign span::after{
+    margin-left: 5px;
+}
+
+.sign-account svg{
+    vertical-align: middle;
+}
 .sign-account a{
     font-size: 18px;
     color: #031b4e;
@@ -181,7 +193,7 @@ p small{
     color: #c4cad7;
     font-size: 18px;
 }
-#partners-logo{
+.partners-logo{
     object-fit: contain;
     height: 70px;
     width: 100%;
@@ -299,6 +311,12 @@ p small{
 }
 /* fine world */
 
+#designed-two-content{
+    background-color: #fff;
+    padding: 40px 20px 70px;
+}
+
+/* inizio call-to-action */
 #call-to-action{
     background-image: url(img/bg-button.jpg);
 }
@@ -318,7 +336,7 @@ p small{
     color: #0248ff;
     background-color: #ced8fb;
 }
-
+/* fine call-to-action */
 /* inizio footer */
 footer{
     background-color: #010e28;
@@ -369,14 +387,22 @@ footer a:hover{
     padding: 0 5px;
 }
 
-#footer-bottom li a{
-    font-size: 20px;
-        padding: 0 5px;
+.nav>li>a{
+    font-size: 13px;
+    padding: 10px 10px;
 }
 
 @media all and (max-width: 992px){
     main{
-        padding-top: 101px;
+        padding-top: 31px;
+    }
+    .jumbotron{
+        padding-top: 0;
+    }
+
+
+    form{
+        margin: 0;
     }
 }
 
@@ -389,4 +415,9 @@ footer a:hover{
     #button button{
         font-size: 14px;
     }
+
+    .glyphicon-chevron-right, .glyphicon-chevron-left{
+        font-size: 20px;
+    }
+
 }
