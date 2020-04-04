@@ -316,6 +316,10 @@ p small{
     padding: 40px 20px 70px;
 }
 
+#designed-two-content img{
+    width: 100px;
+}
+/* fine designed-two */
 /* inizio call-to-action */
 #call-to-action{
     background-image: url(img/bg-button.jpg);
@@ -399,7 +403,6 @@ footer a:hover{
     .jumbotron{
         padding-top: 0;
     }
-
 
     form{
         margin: 0;
